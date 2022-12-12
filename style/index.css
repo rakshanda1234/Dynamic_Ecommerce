@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+
+header li {
+  margin: 0 px 40 px;
+  width: 25%;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+header ul {
+  display: flex;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 200;
+  justify-content: center;
+  list-style-type: none;
+  border-bottom: 0.1rem solid white;
+  position: fixed;
+  top: 0%;
+  background: cadetblue;
+  width: 100%;
+  z-index: 1;
+  box-sizing: border-box;
+}
+header ul a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+header {
+  text-align: center;
+  color: white;
+  background-color: grey;
+}
+header h1 {
+  padding: 40px;
+  font-size: 100px;
+}
+
+header .latest-album {
+  display: block;
+  border: 1px solid cadetblue;
+  padding: 15px 30px;
+  font-weight: 200;
+  font-size: 23px;
+  margin: 10px auto;
+  background: inherit;
+  cursor: pointer;
+  color: white;
+  box-sizing: border-box;
+}
+header .play-btn {
+  cursor: pointer;
+  display: block;
+  border: 2px solid cadetblue;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 200;
+  margin: 20px auto;
+  background: inherit;
+  color: cadetblue;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 30px;
+}
+section {
+  display: block;
+}
+section h2 {
+  font-family: "Metal Mania";
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+h2 {
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+#tours .tour-item {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+#tours .tour-item .tour-date {
+  width: 12%;
+}
+#tours .tour-item .tour-place {
+  width: 25%;
+  color: #777;
+}
+#tours .tour-item .tour-spec-place {
+  width: 53%;
+  color: #777;
+}
+#tours .tour-item .buy-btn {
+  width: 20%;
+  background: cadetblue;
+  color: white;
+  border: none;
+  padding: 7px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+  display: flex;
+  margin-top: 40px;
+  padding: 20px;
+  background: #56ccf2;
+}
+footer .footer-title {
+  text-align: center;
+  color: white;
+  width: 50%;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+footer .footer-icons {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-icons ul {
+  list-style-type: none;
+  display: flex;
+}
+.footer-icons li {
+  padding: 10px;
+  margin: 0px 20px;
+}
+.footer-icons li:hover {
+  background: rgb(17, 206, 206);
+}
+.footer-icons img {
+  width: 30px;
+}
